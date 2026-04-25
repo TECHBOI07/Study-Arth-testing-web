@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Inquiry</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+            background: #f4f6f9;
+        }
+
+        h1 {
+            color: #0b3d91;
+        }
+
+        form {
+            margin-top: 60px;
+        }
+
+        input {
+            padding: 12px;
+            width: 250px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 12px 20px;
+            background: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>📋 Admission Inquiry Form</h1>
+
+<form action="/submit" method="POST">
+    <input type="text" placeholder="Student Name" required><br>
+    <input type="text" placeholder="Class" required><br>
+    <input type="text" placeholder="School Name" required><br>
+    <input type="text" placeholder="Address" required><br>
+    <input type="tel" placeholder="Mobile Number" required><br>
+
+    <button>Submit</button>
+</form>
+
+</body>
+</html>
